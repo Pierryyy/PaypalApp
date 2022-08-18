@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background: #F6F8FA;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 100%;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+header {
+    background: #F6F8FA;
+    border-radius: 0px 0px 15px 15px;
+}
+.conteudo {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.conteudo-box {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 10px;
+}
+.conteudo-1 {
+    margin: 15px;
+    padding: 18px;
+}
+.conteudo-saldo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #025ED7;
+}
+.conteudo-valor {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+.conteudo-disp {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #999999;
+}
+.button-saldo {
+    padding: 3px;
+    margin: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    color: #0262E9;
+    border: 1px solid #0262E9;
+    border-radius: 15px;
+}
+.conteudo-2 {
+    margin: 10px;
+    padding: 10px;
+    
+}
+.pag-recentes {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #003087;
+}
+.pessoas {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.pessoa {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nome-pessoa {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #666666;
+}
+.menu-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ativity {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #003087;
+}
+.transaction {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #025ED7;
+}
+
+.ativity-box {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 10px;
+}
+.atividades {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    border-top: 0.1px dashed #999999;
+}
+.atividades-top{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+}
+.activity-nome{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1B1B1B;
+}
+.activity-valor-enviado {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1B1B;
+    text-align: end;
+}
+.activity-valor-recebido{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00C55B;
+    text-align: end;
+}
+.activity-desc {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+color: #999999;
+}
+footer {
+background: #FFFFFF;
+box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #999999;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.rodape-img-1 {  
+    border-radius: 50%;
+    background: linear-gradient(180deg, #005EBC 0%, #003087 100%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);   
+}
+
+
